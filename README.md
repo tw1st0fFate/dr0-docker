@@ -24,15 +24,23 @@ Here we gonna have 4 separate files:
 As we can see from steps, running our poroject requires Node JS with npm, docker engine
 
 #### Use(Linux based):
- `
+ 
 1. We have to navigate inside docker directory where we put in all our files(using terminal):
  `cd /PATH/visits`
-2.1 Then we need to build our docker image(if u want to work with dockers id):
+ 
+2. Then we need to build our docker image
+
+2.1 If u want to work with dockers id):
   `docker build .` 
+  
 2.2 Also you can tag your docker image by giving it a name so that we dont need to care about his id all the time:
 `docker build -t <dockers_name>/<name_of_projects_dir>:latest .`
+
 here is example of how i used it, I picked my name for docker name, and projects dir is named visits, `.` at the end specifies that we want to build docker from current directory
+
  `docker build -t stefan/visits:latest .`
+ 
+3.
 
   
   
