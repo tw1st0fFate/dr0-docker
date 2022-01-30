@@ -1,0 +1,10 @@
+version: '3'
+services:
+  redis-server:
+    image: 'redis'
+  node-app:
+    restart: on-failure
+    build: .
+    ports:
+    # Prvi port je na lokalnoj masini, drugi port je unutar docker kontejnera
+      - "4001:8081"
