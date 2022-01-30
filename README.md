@@ -1,4 +1,4 @@
-# dr0-docker
+# dr0-docker :sweat_smile:
 Simple docker project with purpose of counting vistis on a specific web page.
 Project is classsic example of docker usage.
 
@@ -39,7 +39,7 @@ As we can see from steps, running our poroject requires Node JS with npm, docker
  If u want to use another port on your local machine, you can simply change it inside of docker-compose.yml file, while for changing containers port you have to  
  change index.js file as well. And thats all you need to run this application.
 
-Down below are steps we would have to go trough if we had not implemented docker-compose.yml file.
+#### Down below are steps we would have to go trough if we had not implemented docker-compose.yml file.
 
 2.1 If u want to work with dockers id):
   `docker build .` 
