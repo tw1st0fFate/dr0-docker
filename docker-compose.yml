@@ -6,5 +6,5 @@ services:
     restart: on-failure
     build: .
     ports:
-    # Prvi port je na lokalnoj masini, drugi port je unutar docker kontejnera
+    # First port is inside of local machine, while second one is based inside of the container
       - "4001:8081"
